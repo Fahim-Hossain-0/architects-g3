@@ -26,32 +26,138 @@ font-size: 16px;
 }
 .quick-list-container{
     flex-direction: column;
+    align-items: start;
+    gap: 60px;
+}
+.quick-list-left{
+    grid-template-columns: repeat(1,1fr);
 }
 .sponsors-logo{
     flex-wrap: wrap;
 
     
 } 
+.container{
+margin-top: 60px;
+gap: 45px;
+}
+.box{
+    width: 60%;
+}
+.box h5{
+    font-size: 30px;
+}
+.box p{}
 .sponsors-logo img{
      /* margin: 10px 0; */
+     width: 50%;
 
  }
+ .sponsors-text h2{
+    font-size: 35px;
+ }
 button{
-    padding: 20px 16px;
+    padding: 16px 20px;
     font-size: 16px;
 }
+.facts{
+    margin-top: 30px;
 }
+.text h4 {
+    font-size: 40px;
+}
+.container{
+    flex-wrap: wrap;
+}
+
+}
+
 
  /* Small devices (landscape phones, 576px and up) */
  @media (min-width: 576px) and (max-width: 767.98px) {
 
+
+nav h2{
+    /* flex-direction: ; */
+    font-size: 25px;
+
+} 
+nav{
+    /* flex-direction: column; */
+    width: 90%;
+}  
+nav ul {
+    margin-top: 15px;
+    gap: 20px;
+}          
+nav ul li a {
+font-size: 16px;
+}     
+.banner h1{
+    font-size: 50px;
+}               
+.banner{
+    margin-top: 40px;
+}                               
+.banner p{
+    /* line-height: 20px; */
+}
+.quick-list-container{
+    flex-direction: column;
+    align-items: start;
+    gap: 80px;
+}
+.quick-list-left{
+    /* grid-template-columns: repeat(1,1fr); */
+}
+.sponsors-logo{
+    flex-wrap: wrap;
+
+    
+} 
+.container{
+margin-top: 60px;
+gap: 40px;
+}
+.box{
+    width: 60%;
+}
+.box h5{
+    font-size: 30px;
+}
+.box p{}
+.sponsors-logo img{
+     /* margin: 10px 0; */
+     width: 15%;
+
+ }
+ .sponsors-text h2{
+    font-size: 35px;
+ }
+button{
+    /* padding: 16px 20px; */
+    /* font-size: 16px; */
+}
+.facts{
+    margin-top: 30px;
+}
+.text h4 {
+    font-size: 40px;
+}
+
+ 
+ }
+ 
+  /* Medium devices (tablets, 768px and up) */
+ @media (min-width: 768px) and (max-width: 991.98px) {
     nav h2{
         /* flex-direction: ; */
         font-size: 25px;
     
     } 
     nav{
-        flex-direction: column;
+        /* flex-direction: column; */
+        width: 90%;
     }  
     nav ul {
         margin-top: 15px;
@@ -61,58 +167,7 @@ button{
     font-size: 16px;
     }     
     .banner h1{
-        font-size: 40px;
-    }               
-    .banner{
-        margin-top: 40px;
-    }                               
-    .banner p{
-        line-height: 20px;
-    }
-    .quick-list-container{
-        flex-direction: column;
-    }
-    .sponsors-logo{
-        flex-wrap: wrap;
-    
-        
-    } 
-    .sponsors-logo img{
-         /* margin: 10px 0; */
-    
-     }
-    button{
-        padding: 20px 16px;
-        font-size: 16px;
-    }
-    .quick-list-container{
-        gap: 70px;
-    }
-    .sponsors{
-        margin-top: 40px;
-    }  
- }
- 
-  /* Medium devices (tablets, 768px and up) */
- @media (min-width: 768px) and (max-width: 991.98px) {
- 
-    nav h2{
-        /* flex-direction: ; */
-        /* font-size: 30px; */
-    
-    } 
-    nav{
-        flex-direction: column;
-    }  
-    nav ul {
-        margin-top: 15px;
-        gap: 20px;
-    }          
-    nav ul li a {
-    /* font-size: 16px; */
-    }     
-    .banner h1{
-        /* font-size: 35px; */
+        font-size: 50px;
     }               
     .banner{
         margin-top: 40px;
@@ -122,31 +177,47 @@ button{
     }
     .quick-list-container{
         flex-direction: column;
+        gap: 80px;
+    }
+    .quick-list-left{
+        /* grid-template-columns: repeat(1,1fr); */
     }
     .sponsors-logo{
         flex-wrap: wrap;
     
         
     } 
+    .container{
+    margin-top: 60px;
+    gap: 40px;
+    }
+    .box{
+        width: 60%;
+    }
+    .box h5{
+        font-size: 30px;
+    }
+    .box p{}
     .sponsors-logo img{
          /* margin: 10px 0; */
+         width: 15%;
     
      }
+     .sponsors-text h2{
+        font-size: 35px;
+     }
     button{
-        padding: 22px 18px;
+        padding: 18px 20px;
         font-size: 18px;
     }
-    .quick-list-container{
-        gap: 70px;
+    .facts{
+        margin-top: 30px;
     }
-    .sponsors{
-        margin-top: 40px;
-        /* margin-bottom:px; */
-    }  
-    .sponsors-text{
-        /* margin-bottom: px; */
+    .text h4 {
+        font-size: 40px;
     }
-
+    
+    
  }
  
  /* Large devices (desktops, 992px and up) */
